@@ -13,11 +13,14 @@ A full-stack web application built with Strapi (backend) and React (frontend) to
 Strapi · React · Node.js · SQLite 
 
 ## Project Structure
+```bash 
 .
+├── docs/
 ├── backend/ # Strapi backend (content management & API)
 ├── frontend/ # React frontend (UI)
 ├── .gitignore
 ├── README.md
+```
 
 ## Requirements
 - Node.js 18+
