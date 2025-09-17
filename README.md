@@ -1,32 +1,51 @@
-INVENT - Setup Guide
+# Industrial Project (INVENT)
 
-1. git clone the project from the repository
+A full-stack web application built with Strapi (backend) and React (frontend) to manage clients and their projects. Developed as part of a university industrial project, this system showcases end-to-end integration between content management and a modern user interface.
 
-2. Navigate to the backend folder and install dependencies:
+## Features
+- Strapi backend for content and client management
+- React frontend with a clean and responsive UI
+- Upload and display client information and projects
+- Font Awesome integration for modern icons
+- Environment-based configuration for flexible deployment
+
+## Tech Stack
+Strapi · React · Node.js · SQLite 
+
+## Project Structure
+.
+├── backend/ # Strapi backend (content management & API)
+├── frontend/ # React frontend (UI)
+├── .gitignore
+├── README.md
+
+## Requirements
+- Node.js 18+
+- npm
+- SQLite (via Strapi)
+- Environment variables (`.env` in backend)
+
+- ## Getting Started
+- 1. Clone the Repository
+```bash 
+git clone https://github.com/arbhajdari/invent-industrial-project.git
+cd invent-industrial-project
+```
+- 2. Backend Setup
+```bash 
 cd backend
 npm install
-
-3. Add required environment variables;
-- Find the .env file in google classroom and place it inside the backend/ folder
-
-4. Find the data.db file in google clasroom and place it insde the backend/.tmp/ folder
-
-5. Start the Strapi backend:
 npm run develop
-- Once it's running, open Strapi in your browser: http://localhost:1337/admin
-
-6. Setup frontend
-- go back to main folder and navigate to frontend/ and type in the terminal : npm install
-
-7. Run the frontend with: npm start
-- Open: http://localhost:3000
-
-8. Find in the classroom the uploads folder, copy the folder and place it inside backend/public
-
-9. install the following dependency for font awesome:
+```
+- 3. Frontend Setup
+```bash 
+cd ../frontend
+npm install
+npm start
+```
+- 4. Font Awesome Dependencies
+Install the following (if not already included):
 npm install @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core
-
-
 
 
 
