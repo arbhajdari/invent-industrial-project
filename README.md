@@ -48,8 +48,9 @@ npm start
 ```
 - 4. Font Awesome Dependencies
 Install the following (if not already included):
+```bash 
 npm install @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core
-
+```
 
 ## Screenshots
 
