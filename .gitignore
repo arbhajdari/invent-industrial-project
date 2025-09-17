@@ -1,0 +1,20 @@
+# Node
+node_modules/
+build/
+dist/
+
+# Strapi
+backend/.cache/
+backend/.tmp/
+backend/public/uploads/
+
+# Env files
+.env
+*.env
+backend/.env
+frontend/.env
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
