@@ -70,8 +70,8 @@ npm install @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome @f
 ### Upload New Client
 ![Upload Client](docs/screenshots/upload-client.png)
 
-### Our Team
-![Team](docs/screenshots/team.png)
+### Contact
+![Team](docs/screenshots/contact.png)
 
 
 ## License
