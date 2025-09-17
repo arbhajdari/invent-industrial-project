@@ -48,4 +48,33 @@ Install the following (if not already included):
 npm install @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core
 
 
+## Screenshots
+
+### Home Page
+![Home](docs/screenshots/home.png)
+
+### Projects
+![Projects](docs/screenshots/projects.png)
+
+### Upload New Project
+![Upload Project](docs/screenshots/upload-project.png)
+
+### Clients
+![Clients](docs/screenshots/clients.png)
+
+### Upload New Client
+![Upload Client](docs/screenshots/upload-client.png)
+
+### Our Team
+![Team](docs/screenshots/team.png)
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+Developed by [Arb Hajdari](https://www.linkedin.com/in/arbhajdari)  
+Feel free to connect with me!
+
+
 
