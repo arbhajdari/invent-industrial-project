@@ -1,0 +1,119 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 84px; 
+}
+
+.about-container {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.about-header {
+  color: #191b1c;
+  font-size: 48px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  line-height: 57px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.team-card {
+  width: 100%;
+  max-width: 427px;
+  height: 328px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 0.740741px solid #efefef;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.team-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.team-info {
+  text-align: center;
+  width: 100%;
+}
+
+.team-name {
+  color: #030303;
+  font-size: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+.team-title {
+  color: #030303;
+  font-size: 18px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 12px;
+}
+
+.team-description {
+  color: #000000;
+  font-size: 16px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 19px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-header {
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .team-card {
+    height: auto;
+    min-height: 328px;
+    padding: 20px;
+  }
+} 

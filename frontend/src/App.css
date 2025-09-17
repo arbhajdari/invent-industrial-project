@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.page-content {
+  margin-left: 270px;
+  width: calc(100% - 270px);
+  padding: 20px;
+  flex: 1;
+  min-height: calc(100vh - 64px - 60px);
+  padding-bottom: 60px;
+}
+
+.page-content.full-width {
+  margin-left: 0;
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.2rem;
+  color: #f97316;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .sidebar {
+    width: 100%;
+    left: 0;
+    top: 64px;
+    border-radius: 0;
+    margin: 0;
+  }
+}

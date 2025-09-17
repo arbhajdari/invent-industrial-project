@@ -1,0 +1,181 @@
+.home {
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.hero-section {
+  width: 1158px;
+  max-width: 100%;
+  height: 300px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(365px, 1fr)); 
+  gap: 20px;
+  justify-content: center;
+  padding: 50px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 1.2rem;
+  color: #f97316;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: #dc2626;
+  font-size: 1.2rem;
+}
+
+.no-projects {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+  .hero-section {
+    width: 100%;
+    height: 250px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(365px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 10px;
+  }
+
+  .hero-section {
+    height: 200px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(1, minmax(320px, 1fr));
+    padding: 20px;
+  }
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 43px; 
+  padding-top: 20px; 
+}
+
+.hero-image {
+  width: 80%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.search-and-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.upload-button {
+  width: 12%; 
+  height: 33px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 4px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  background-color: #ff7f11;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 19px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  display: block;
+}
+
+.upload-button:hover {
+  background-color: #e67300;
+}
+
+
+.search-bar {
+  width: 100%;
+}
+
+
+@media (max-width: 1200px) {
+  .upload-button {
+    width: 30%; 
+  }
+  
+  .search-and-upload {
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .upload-button {
+    width: 40%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .upload-button {
+    width: 60%; 
+    font-size: 13px; 
+  }
+  
+  .search-and-upload {
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .upload-button {
+    width: 80%; 
+    height: 36px; 
+    margin-top: 8px; 
+  }
+}
