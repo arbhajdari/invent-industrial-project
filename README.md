@@ -15,10 +15,11 @@ Strapi · React · Node.js · SQLite
 ## Project Structure
 ```bash 
 .
-├── docs/
+├── docs/ # Documentation and screenshots
 ├── backend/ # Strapi backend (content management & API)
 ├── frontend/ # React frontend (UI)
 ├── .gitignore
+├── LICENSE
 ├── README.md
 ```
 
